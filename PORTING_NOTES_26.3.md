@@ -22,4 +22,4 @@ First step on your machine: ./gradlew build, then fix whatever javac / mixin app
 ## Building
 - Local: `./build.sh` (Linux/macOS) or `build.bat` (Windows), JDK 25 required. Jar lands in `dist/`.
 - CI: push to GitHub; `.github/workflows/build.yml` builds with JDK 25 + Gradle 9.6.0 and uploads the jar as an artifact.
-- Put the Actions & Stuff jars in `libs/` first (commit them if using CI).
+- Put the Actions & Stuff jars in `libs/` first (commit them if using CI).dddddddddd
